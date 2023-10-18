@@ -1,0 +1,138 @@
+body {
+  background-color: aliceblue;
+  padding: 0 20px;
+  margin: 0;
+}
+
+.page-list {
+  color: black;
+}
+
+/*
+@include mobile;
+*/
+.articles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+h1 {
+  font-size: 25px;
+  margin: 0;
+  padding: 15px;
+  color: black;
+}
+
+.cardGame {
+  max-width: 450px;
+  background-color: antiquewhite;
+  padding: 15px 0;
+  border: black solid 2px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cardGame h1 {
+  font-size: 25px;
+  margin: 0;
+  padding: 15px;
+  color: black;
+}
+.cardGame h2 {
+  font-size: 18px;
+  margin: 0;
+  padding: 15px;
+  color: black;
+}
+.cardGame .game-image {
+  max-width: 400px;
+  max-height: 400px;
+  border-radius: 15px;
+  margin: 0 10px;
+}
+.cardGame .screen-shot {
+  max-width: 180px;
+  max-height: 200px;
+  border-radius: 10px;
+}
+.cardGame .screen {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.image {
+  max-width: 400px;
+  max-height: 400px;
+  border-radius: 15px;
+  margin: 0 10px;
+}
+
+.image-single {
+  max-width: 400px;
+  max-height: 400px;
+  border-radius: 15px;
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+}
+
+button, .button {
+  background-color: blue;
+  text-align: center;
+  color: aliceblue;
+  min-height: 35px;
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: auto;
+  padding: 0 15px;
+  text-decoration: none;
+}
+button:hover, .button:hover {
+  text-decoration: underline;
+  transition: all ease-in-out 0.2s;
+}
+
+a {
+  background-color: blue;
+  text-align: center;
+  color: aliceblue;
+  min-height: 35px;
+  border-radius: 14px;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: auto;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0 15px;
+}
+a:hover {
+  text-decoration: underline;
+  transition: all ease-in-out 0.2s;
+}
+
+.publisher, .description, .release-date, .rating, .tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: darkblue;
+  font-weight: 400;
+  min-height: 35px;
+  border: darkblue solid 2px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 14px;
+}/*# sourceMappingURL=style.css.map */
